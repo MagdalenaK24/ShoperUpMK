@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KONTAKT</title>
+</head>
+<body> 
+    <header>
+        <nav><a href="/index.html">Główna</a></nav>
+    </header>
+    <main>
+    <section>
+        <form action="#" novalidate>  
+            <h1>Kontakt</h1>
+            <fieldset>
+            <div><label for="firstName">Imię:</label>
+                <input autofocus id="firstName" name="firstName" placeholder="Wpisz swoje imię" type="text">
+            </div>
+            <div>
+                <label for="lastName"> Nazwisko: </label>
+                <input id="lastName" name="lastName" placeholder="Wpisz swoje nazwisko" type="text">                
+            </div>
+            <div><label for="email" > E-mail: </label>
+                <input id= "email" name="email" placeholder="Wpisz swój adres e-mail" type="text">
+            </div>
+            <div> <label for="phoneNumber"> Telefon: </label>
+                <input id="phoneNumber" name="phoneNumber" placeholder="+48 500 123 456" type="text">
+            </div>
+           </fieldset>
+           <fieldset>
+            <div><label for="subject">Wybierz temat</label>
+                <select name="subject" id="subject">
+                    <option value="subject1">Temat 1</option>
+                    <option value="subject2">Temat 2</option>
+                    <option value="subject3">Temat 3</option>
+                </select>
+            </div>
+            <div><label for="message"> Treść wiadomości: </label>
+                <textarea rows="4" cols="30" name="message" id="message"></textarea>
+            </div>
+            <div><label for="terms">Zgadzam się na przetwarzanie danych</label>
+                <input id="terms" type="checkbox" required>
+            </div>
+        </fieldset> 
+            <div>
+                <input value="Wyślij" type="submit">
+            </div>            
+        </form>
+        <footer>Stopka</footer>
+    </section>
