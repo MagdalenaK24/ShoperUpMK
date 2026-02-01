@@ -1,5 +1,5 @@
 th {
-    color:blueviolet;
+    color: pink;
     }
 .page-nav {
     color: green;
@@ -12,3 +12,26 @@ td {
     background-color: lightyellow;
     font-size: larger;
     }
+div {
+    display: flex;
+}
+.page-header {
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.baner {
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+}
+article {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+}
+.flex-footer {
+    background-color: black;
+    color: white;
+}
