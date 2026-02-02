@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;   
+}
+
+body {  
+    
+    font-family: "Montserrat", sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.5;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.baner { 
+    background-color:#DDDDDD; height: 200px;
+    display: flex;}  
+.baner img {
+    width: 100%;
+    height: auto;
+}
+.box-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px 0px; 
+    
+}
+.box {    
+    width: 200px;
+    border: 1px solid #ddd;
+    text-align: justify;
+}
+
+.box p {
+    padding: 0px 10px 10px 10px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 10px;
+}
+
+.btn {
+    flex: 1;
+    border: none;
+    padding: 5px;
+}
+
+.gray { 
+    background-color: #bbb;
+    color:black }
+.green { 
+    background-color: green;
+    color: white }
+
+.float-section {
+    margin: 20px 0px;  
+    overflow: auto; 
+    text-align:justify
+}
+.float-section img{
+    float: left;
+    margin: 0px 20px 0px 0px; 
+}
+
+.mini-box-section {
+  display: flex;
+  flex-direction: row; 
+  gap: 30px;
+  align-items: flex-start; 
+  margin-bottom: 40px;
+}
+
+.text-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: justify;
+}
+
+.mini-item {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.box-small {
+  flex-shrink: 0;
+}
+
+.image-large {
+  flex-shrink: 0; 
+}
+
+.image-large img {
+  display: block;
+  width: 400px; 
+  height: auto;
+}
+.last-section {
+  display: flex;        
+  align-items: flex-start; 
+  gap: 20px;              
+  padding: 20px;
+  text-align:justify
+}
+
+.image-box img {
+  display: block;
+  max-width: 400px; 
+  height: auto;
+}
+
+.content {
+  flex: 1;          
+
+}
+.page-footer {
+    margin-top: 40px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 0.7rem;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.page-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+.container {
+   background-color: lightyellow;
+    }
+}
