@@ -1,3 +1,41 @@
+@use "../../base/placeholders";
+
 h1 {
     font-style: italic;
+}
+
+
+.page-header {
+    @extend %center-vertical;
+
+    justify-content: space-between; 
+    width: 100%; }
+
+    p {
+    @include mixins.text-style(colors.$primary-color, 16px);
+}
+
+// Style dla nagłówków - nadajemy różne rozmiary i wymuszamy bold
+h1 {
+    @include mixins.text-style(#333, 40px, bold);
+}
+
+h2 {
+    @include mixins.text-style(#333, 32px, bold);
+}
+
+h3 {
+    @include mixins.text-style(#333, 28px, bold);
+}
+
+h4 {
+    @include mixins.text-style(#333, 24px, 600);
+}
+
+h5 {
+    @include mixins.text-style(#333, 20px, 600);
+}
+
+h6 {
+    @include mixins.text-style(#333, 18px, 600);
 }

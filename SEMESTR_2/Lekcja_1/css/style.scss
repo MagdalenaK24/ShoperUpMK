@@ -3,3 +3,16 @@
 
 //Components 
 @import "components/page-header/page-header";
+
+@use "base/colors";
+@use "base/variables";
+
+@use "components/button/button";
+
+@use "base/colors";
+@use "base/variables";
+@use "base/mixins";
+@use "base/base";
+
+@use "components/button/button";
+@use "components/page-header/page-header";

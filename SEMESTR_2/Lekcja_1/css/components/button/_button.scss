@@ -1,0 +1,12 @@
+@use "../../base/colors";
+@use "../../base/variables";
+
+.button {
+    background-color: colors.$primary-color;
+
+    padding: variables.$base-padding (variables.$base-padding / 2);
+
+    color: white;
+    border: none;
+    text-align: center;
+    display: inline-block; }
